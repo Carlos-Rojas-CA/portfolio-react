@@ -63,7 +63,7 @@ function App() {
                       <Grid item xs={12} spacing={2}>
                         <a href="https://www.linkedin.com/in/carlos-rojas-9b1b9a112/"><LinkedInIcon style={{ fontSize: 60 }} /></a>
 
-                        <a href="https://github.com/Carlos-Rojas-CA"><GitHubIcon className="git" style={{ fontSize: 60, }} /></a>
+                        <a href="https://github.com/Carlos-Rojas-CA"><GitHubIcon className="git" style={{ fontSize: 50, }} /></a>
 
                         <a href="https://angel.co/carlos-rojas-24"> <img src="https://img.icons8.com/windows/64/000000/angelist.png" /></a>
 
