@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ea504a9a.chunk.css",
+    "main.js": "/static/js/main.20cf0422.chunk.js",
+    "main.js.map": "/static/js/main.20cf0422.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b040ee07.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b040ee07.js.map",
+    "static/js/2.72b6bcc4.chunk.js": "/static/js/2.72b6bcc4.chunk.js",
+    "static/js/2.72b6bcc4.chunk.js.map": "/static/js/2.72b6bcc4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.523a0920d011b1d0fa77297187f503d6.js": "/precache-manifest.523a0920d011b1d0fa77297187f503d6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ea504a9a.chunk.css.map": "/static/css/main.ea504a9a.chunk.css.map",
+    "static/js/2.72b6bcc4.chunk.js.LICENSE.txt": "/static/js/2.72b6bcc4.chunk.js.LICENSE.txt",
+    "static/media/Carlos_Rojas Resume_t.pdf": "/static/media/Carlos_Rojas Resume_t.999e37f4.pdf",
+    "static/media/DSR.PNG": "/static/media/DSR.83638d0a.PNG",
+    "static/media/Etheron.PNG": "/static/media/Etheron.53b80021.PNG",
+    "static/media/MMM.png": "/static/media/MMM.e241c6d6.png",
+    "static/media/Profile_Picture.png": "/static/media/Profile_Picture.56982b0b.png",
+    "static/media/App.css": "/static/media/connectwork.2afaf81a.png",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b040ee07.js",
+    "static/js/2.72b6bcc4.chunk.js",
+    "static/css/main.ea504a9a.chunk.css",
+    "static/js/main.20cf0422.chunk.js"
+  ]
+}
