@@ -1,7 +1,7 @@
 {
   "name": "standard-temp",
   "version": "0.1.0",
-  "homepage": "https://carlos-rojas-ca.github.io/",
+  "homepage": "https://carlos-rojas-ca.github.io/portfolio-react/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.9.4",
