@@ -19,11 +19,11 @@ const useStyles = makeStyles({
     detail: {
         textAlign: 'left',
         color: "white"
-      },
-      main: {
+    },
+    main: {
         textAlign: 'center',
         color: "white"
-      },
+    },
 });
 
 export default function PortfolioCard(props) {
@@ -31,29 +31,31 @@ export default function PortfolioCard(props) {
 
     return (
         <Card className={classes.root}>
-            <CardActionArea>
             <img src={props.image} alt={props.title} className={classes.media} />
-                {/* <CardMedia
+            {/* <CardMedia
                     className={classes.media}
                     image={props.image}
                     title={props.title}
                 /> */}
-                <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2" className={classes.main}>
-                        {props.title}
-                    </Typography>
-                    <Typography variant="body2" color="textSecondary" component="p" className={classes.detail}>
-                        {props.details}
-          </Typography>
-                </CardContent>
-            </CardActionArea>
+            <CardContent>
+                <Typography gutterBottom variant="h5" component="h2" className={classes.main}>
+                    {props.title}
+                </Typography>
+                <Typography variant="body2" color="textSecondary" component="p" className={classes.detail}>
+                    {props.details}
+                </Typography>
+            </CardContent>
             <CardActions>
-                <Button size="small" color="primary">
-                    Share
-        </Button>
-                <Button size="small" color="primary">
-                    Learn More
-        </Button>
+                <a href={props.gitHub} target="_blank">
+                    <Button variant="contained" color="secondary" >
+                        GitHub
+                    </Button>
+                </a>
+                <a href={props.site} target="_blank">
+                    <Button variant="contained" color="secondary">
+                        Site
+                    </Button>
+                </a>
             </CardActions>
         </Card>
     );
