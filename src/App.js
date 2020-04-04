@@ -54,7 +54,7 @@ function App() {
                         <p style={{ textAlign: "left", marginBlockStart: "0.5em", marginBlockEnd: "0.5em" }}>City:</p>
                       </Grid>
                       <Grid item xs={9}>
-                        <p style={{ textAlign: "left", marginBlockStart: "0.5em", marginBlockEnd: "0.5em" }}>(909) 555-5555</p>
+                        <p style={{ textAlign: "left", marginBlockStart: "0.5em", marginBlockEnd: "0.5em" }}>(909) 782-0746</p>
                         <p style={{ textAlign: "left", marginBlockStart: "0.5em", marginBlockEnd: "0.5em" }}>c2rojas75@gmail.com</p>
                         <p style={{ textAlign: "left", marginBlockStart: "0.5em", marginBlockEnd: "0.5em" }}>San Diego, California</p>
                       </Grid>
@@ -74,7 +74,7 @@ function App() {
                   <Grid container>
                     <Grid item xs={12} sm={12}>
                       <Typography variant="h4" style={{ paddingTop: '20px', fontFamily: 'Coda, sans-ser' }}>About Me...</Typography>
-                      <p style={{ textAlign: "center", marginBlockStart: "0.5em", marginBlockEnd: "0.5em", fontSize: "18px", fontFamily: "Helvetica, Arial, sans-ser" }}>My name is Carlos. Born and raised in southern California. My love for technology and games paired with some laziness lead me to software. I wanted to create tools for myself to improve my experience. My skills include React, Javascript, (soon to be) Python.</p>
+                      <p style={{ textAlign: "center", marginBlockStart: "0.5em", marginBlockEnd: "0.5em", fontSize: "18px", fontFamily: "Helvetica, Arial, sans-ser" }}>My name is Carlos. Born and raised in southern California. My love for technology and games paired with some determination lead me to software. I wanted to create tools for myself to improve my experience. My skills include React, Javascript, (soon to be) Python.</p>
                       <p style={{ textAlign: "center", marginBlockStart: "0.5em", marginBlockEnd: "0.5em", fontSize: "18px", fontFamily: "Helvetica, Arial, sans-ser" }}>Otherwise, I'm exploring San Diego with my dog and learning new skills/languages. The "I can do that" idea drives me to continue learning and improving myself.</p>
                       <a href={resumePDF} download><Button variant="contained" color="secondary">
                         Download Resume   <GetAppIcon />
@@ -203,7 +203,7 @@ function App() {
                     {
                       front
                         ? (<Grid item xs={12} lg={12}>
-                          <PortfolioCard image={dsr} title={"Daily Snack Retriever"} gitHub={'https://github.com/Carlos-Rojas-CA/Daily-Snack-Retrieval'} site={'https://carlos-rojas-ca.github.io/Daily-Snack-Retrieval/'} details={"Daily Snack Retriever takes in user input for allergies and food preferences. The app then send an request to Edamam API to retrieve random recipes from their database. The result are loaded using jQuery and Materialize."} />
+                          <PortfolioCard image={dsr} title={"Daily Snack Retriever"} gitHub={'https://github.com/Carlos-Rojas-CA/Daily-Snack-Retrieval'} site={'https://carlos-rojas-ca.github.io/Daily-Snack-Retrieval/'} details={"Daily Snack Retriever takes in user input for allergies and food preferences. The app then sends a request to Edamam API to retrieve random recipes from their database. The result are loaded using jQuery and Materialize."} />
                         </Grid>
                         )
                         : null   // https://carlos-rojas-ca.github.io/Daily-Snack-Retrieval/
