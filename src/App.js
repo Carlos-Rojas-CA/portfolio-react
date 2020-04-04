@@ -194,7 +194,7 @@ function App() {
                     {
                       fullStack
                         ? (<Grid item xs={12} lg={12}>
-                          <PortfolioCard image={etheron} title={"Etheron"} gitHub={'https://github.com/Carlos-Rojas-CA/Etheron-RPG'} site={'https://etheron-rpg.herokuapp.com/'} details={"Etheron is a web based game using Express.js and React to load characters and user data in a Mongo Data Base. Users retreive their characters and select the character they wish to continue with. The web page then lanuches our Unity base RPG game."} />
+                          <PortfolioCard image={etheron} title={"Etheron"} gitHub={'https://github.com/Carlos-Rojas-CA/Etheron-RPG'} site={'https://etheron-rpg.herokuapp.com/'} details={"Etheron is a web based game using Express.js and React to load characters and user data in a Mongo Data Base. Users retrieve their characters and select the character they wish to continue with. The web page then launches our Unity base RPG game."} />
                           <PortfolioCard image={mmm} title={"Movie-Meme-Mash"} gitHub={'https://github.com/Carlos-Rojas-CA/Movie-Meme-Mash'} site={'https://test-memms.herokuapp.com/'} details={"Movie-Meme-Mash is an online forum and rating system for movies. Users create logins and uses passport.js to log into the app. There, they may search for a movie using the OMdb API. The app then stores new and retrieves existing reviews of the movies from a MySQL Database. Once loaded using jQuery, the user may add a review using giphy to help express their emotions."} />
                         </Grid>
                         )
