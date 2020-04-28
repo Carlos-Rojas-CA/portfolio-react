@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c877fbc35ee1fc8c5dde4e0e5e7f4e48",
+    "revision": "8a46bab8ecb4c3de13b0cf808406c687",
     "url": "/portfolio-react/index.html"
   },
   {
-    "revision": "c95edce328f8653d3d0a",
+    "revision": "7e996f9c60556c3436e7",
     "url": "/portfolio-react/static/css/main.d259361c.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-react/static/js/2.27cebbc3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c95edce328f8653d3d0a",
-    "url": "/portfolio-react/static/js/main.41e72857.chunk.js"
+    "revision": "7e996f9c60556c3436e7",
+    "url": "/portfolio-react/static/js/main.a344489e.chunk.js"
   },
   {
     "revision": "3d0913a0c6c6a392525e",
     "url": "/portfolio-react/static/js/runtime-main.de05f41b.js"
   },
   {
-    "revision": "894df91aa292c1d87a5a90ce89a57e0c",
-    "url": "/portfolio-react/static/media/Carlos_Rojas Resume_t.894df91a.pdf"
+    "revision": "d284387de2d9a8bcd681c8e68e58a397",
+    "url": "/portfolio-react/static/media/Carlos_Rojas Resume_t.d284387d.pdf"
   },
   {
     "revision": "83638d0a9bfd98dd96b3cdf39545feeb",
