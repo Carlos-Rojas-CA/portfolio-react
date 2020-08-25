@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
+// import logo from './logo.svg';
 import './App.css';
 import AppBarScroll from './components/App-Bar-Scroll/App-bar'
 import Container from '@material-ui/core/Container';
@@ -9,6 +9,7 @@ import Grid from '@material-ui/core/Grid';
 import profile from './assets/Profile_Picture.png';
 import etheron from './assets/Etheron.PNG';
 import dsr from './assets/DSR.PNG'
+import treeHouseClub from './assets/Tree-House-Club.png'
 import { Typography } from '@material-ui/core';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -59,13 +60,13 @@ function App() {
                         <p style={{ textAlign: "left", marginBlockStart: "0.5em", marginBlockEnd: "0.5em" }}>San Diego, California</p>
                       </Grid>
                     </Grid>
-                    <Grid container>
-                      <Grid item xs={12} spacing={2}>
+                    <Grid container spacing={2}>
+                      <Grid item xs={12} >
                         <a href="https://www.linkedin.com/in/carlos-rojas-9b1b9a112/"><LinkedInIcon style={{ fontSize: 60 }} /></a>
 
                         <a href="https://github.com/Carlos-Rojas-CA"><GitHubIcon className="git" style={{ fontSize: 56, }} /></a>
 
-                        <a href="https://angel.co/carlos-rojas-24"> <img src="https://img.icons8.com/windows/64/000000/angelist.png" /></a>
+                        <a href="https://angel.co/carlos-rojas-24"> <img src="https://img.icons8.com/windows/64/000000/angelist.png" alt="Angelist logo" /></a>
 
                       </Grid>
                     </Grid>
@@ -170,30 +171,34 @@ function App() {
                     </Grid>
 
                     {/* id={"carlos"} */}
-
-                    <Typography variant="body2" component="p" > <a
+                   
+                    <Typography variant="body2" component="a" 
                       onClick={() => {
                         setFront(true)
                         setFullStack(true)
                       }}
-                      style={{ display: "inline", marginRight: "10px", fontSize: "16px", fontWeight: "bold", fontFamily: "Coda, sans-ser" }}>ALL</a> </Typography>
-                    <Typography variant="body2" component="p" > <a
+                      style={{ display: "inline", marginRight: "10px",cursor: "pointer", fontSize: "16px", fontWeight: "bold", fontFamily: "Coda, sans-ser" }}>ALL </Typography>
+                                           
+                    <Typography variant="body2" component="a" 
                       onClick={() => {
                         setFront(false)
                         setFullStack(true)
                       }}
-                      style={{ display: "inline", marginRight: "10px", fontSize: "16px", fontWeight: "bold", fontFamily: "Coda, sans-ser" }}>FULL-STACK</a> </Typography>
-                    <Typography variant="body2" component="p" > <a
+                      style={{ display: "inline", marginRight: "10px", fontSize: "16px", fontWeight: "bold", fontFamily: "Coda, sans-ser" }}>FULL-STACK </Typography>
+                      
+                    <Typography variant="body2" component="a" 
                       onClick={() => {
                         setFront(true)
                         setFullStack(false)
                       }}
-                      style={{ display: "inline", marginRight: "10px", fontSize: "16px", fontWeight: "bold", fontFamily: "Coda, sans-ser" }}>FRONTEND</a>  </Typography>
+                      style={{ display: "inline", marginRight: "10px", fontSize: "16px", fontWeight: "bold", fontFamily: "Coda, sans-ser" }}>FRONTEND  </Typography>
+                      
 
                     <br />
                     {
                       fullStack
                         ? (<Grid item xs={12} lg={12}>
+                          <PortfolioCard image={treeHouseClub} title={"Tree House Club"} gitHub={'https://github.com/Carlos-Rojas-CA/Tree-House'} site={'https://tree-house-club.herokuapp.com/'} details={"Tree House Club is an organization app for those looking to find a new rental property. A user is able to copy and paste a link from Craigslist after creating a profile and club to create a house card. This card shows the photos and a basic information for the property. By doing so, they may nagivate listing they like as while as view the description posted on the website. The driving force behind this website is students and friends have to organize listings by sending them to each other through instant messages and don't have an idea which linked they liked. A soon-to-be feature would be to allow multiple users edit and like listings from a shared Club. This website is a built with a MERN stack, TypeScript and Puppeteer."} />
                           <PortfolioCard image={etheron} title={"Etheron"} gitHub={'https://github.com/Carlos-Rojas-CA/Etheron-RPG'} site={'https://etheron-rpg.herokuapp.com/'} details={"Etheron is a web based game using Express.js and React to load characters and user data in a Mongo Data Base. Users retrieve their characters and select the character they wish to continue with. The web page then launches our Unity base RPG game."} />
                           <PortfolioCard image={mmm} title={"Movie-Meme-Mash"} gitHub={'https://github.com/Carlos-Rojas-CA/Movie-Meme-Mash'} site={'https://test-memms.herokuapp.com/'} details={"Movie-Meme-Mash is an online forum and rating system for movies. Users create logins and uses passport.js to log into the app. There, they may search for a movie using the OMdb API. The app then stores new and retrieves existing reviews of the movies from a MySQL Database. Once loaded using jQuery, the user may add a review using giphy to help express their emotions."} />
                         </Grid>

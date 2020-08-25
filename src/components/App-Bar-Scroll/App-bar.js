@@ -98,14 +98,14 @@ export default function AppBarScroll(props) {
                     <AppBar color='primary' >
                         <Toolbar>
                             <a href="#back-to-top-anchor" className="scrollLink" style={{marginRight: "10px"}} >
-                                <ScrollTop></ScrollTop>
-                                <Typography variant="sub1" component="h6" align="center" > {props.myName} </Typography>
+                                {/* <ScrollTop></ScrollTop> */}
+                                <Typography variant="subtitle1" component="h6" align="center" > {props.myName} </Typography>
                             </a>
                             <a href="#resume" className="scrollLink" style={{marginRight: "10px"}}>
-                                <Typography variant="sub1" component="h6" align="center" > Resume </Typography>
+                                <Typography variant="subtitle1" component="h6" align="center" > Resume </Typography>
                             </a>
                             <a href="#portfolio" className="scrollLink" style={{marginRight: "10px"}}>
-                                <Typography variant="sub1" component="h6" align="center" > Portfolio </Typography>
+                                <Typography variant="subtitle1" component="h6" align="center" > Portfolio </Typography>
                             </a>
 
                         </Toolbar>

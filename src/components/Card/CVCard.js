@@ -53,7 +53,7 @@ export default function CVCard(props) {
         <Typography  color="textSecondary" className={classes.time}>
           {props.time}
         </Typography>
-        <Typography variant="body2" component="p">
+        <Typography variant="body2" component="div">
           <ul className={classes.list}>
             {listItems}
           </ul>
